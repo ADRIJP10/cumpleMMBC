@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./fotos/pastel.png">
+    <title>Cumpleaños MMBC 2025 🎂</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎉 Cumpleaños MMBC 2025 🎂</h1>
+            <div id="confetti-container"></div>
+        </header>
+
+        <div class="filters">
+            <h2>Filtrar por mes:</h2>
+            <div class="month-filter">
+                <button class="month-btn" data-month="1">Enero</button>
+                <button class="month-btn" data-month="2">Febrero</button>
+                <button class="month-btn" data-month="3">Marzo</button>
+                <button class="month-btn" data-month="4">Abril</button>
+                <button class="month-btn" data-month="5">Mayo</button>
+                <button class="month-btn" data-month="6">Junio</button>
+                <button class="month-btn" data-month="7">Julio</button>
+                <button class="month-btn" data-month="8">Agosto</button>
+                <button class="month-btn" data-month="9">Septiembre</button>
+                <button class="month-btn" data-month="10">Octubre</button>
+                <button class="month-btn" data-month="11">Noviembre</button>
+                <button class="month-btn" data-month="12">Diciembre</button>
+            </div>
+            <button class="reset-btn">Mostrar todos</button>
+        </div>
+
+        <div class="view-toggle">
+            <button class="view-btn active" data-view="calendar">Vista Calendario</button>
+            <button class="view-btn" data-view="grid">Vista Cuadrícula</button>
+        </div>
+
+        <div class="calendar-view" id="calendar-view">
+            <!-- Calendario se generará con JavaScript -->
+        </div>
+
+        <div class="grid-view hidden" id="grid-view">
+            <div class="people-grid" id="people-grid">
+                <!-- Personas se generarán con JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <div class="celebration" id="celebration"></div>
+
+    <!-- Modal -->
+    <div class="modal" id="person-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img src="" alt="Persona" class="modal-person-img" id="modal-person-img">
+            <h2 class="modal-person-name" id="modal-person-name">Nombre Persona</h2>
+            <p class="modal-person-birthday" id="modal-person-birthday">1 de Enero</p>
+            <p class="modal-person-leader" id="modal-person-leader">Líder: Nombre Líder</p>
+            <button class="celebration-btn">¡Celebrar!</button>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
