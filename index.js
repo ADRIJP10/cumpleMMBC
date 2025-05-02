@@ -9,7 +9,6 @@ const birthdayData = [
     { name: "Miguel Angel Tiuzo Garcia", birthday: "1977-12-25", leader: "Cesar Fabian Lancheros Currea" },
     { name: "Julio César Ramos Guevara", birthday: "2025-01-08", leader: "César Ibarguen" },
     { name: "Julian Collazos Guerrero", birthday: "1974-03-07", leader: "Miguel Angel Tiuzo" },
-    { name: "Gabriel Mauricio Pérez Álvarez", birthday: "2025-01-14", leader: "Luis Felipe Baquero" },
     { name: "Claudia Giraldo Giraldo", birthday: "1983-02-17", leader: "Miguel Angel Tiuzo" },
     { name: "Diana Patricia Uribe Cortes", birthday: "1987-02-11", leader: "Miguel Angel Tiuzo García" },
     { name: "Cristian Camilo Roa Correa", birthday: "1998-09-18", leader: "Ricardo molina" },
@@ -88,7 +87,6 @@ const processBirthdays = () => {
             case "Miguel Angel Tiuzo Garcia": photoName = "miguel.jpg"; break;
             case "Julio César Ramos Guevara": photoName = "julio.jpg"; break;
             case "Julian Collazos Guerrero": photoName = "julian.jpg"; break;
-            case "Gabriel Mauricio Pérez Álvarez": photoName = "gabriel.jpg"; break;
             case "Claudia Giraldo Giraldo": photoName = "claudia.jpg"; break;
             case "Diana Patricia Uribe Cortes": photoName = "diana.jpg"; break;
             case "Cristian Camilo Roa Correa": photoName = "cristian.jpg"; break;
